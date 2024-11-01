@@ -64,6 +64,11 @@ showAllThing()
 
 if (age){
     var totalAge = 20
-   
+    console.log(totalAge)
 
-} console.log(totalAge);
+} 
+
+// Hosting 
+
+
+
