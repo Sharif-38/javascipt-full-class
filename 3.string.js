@@ -48,11 +48,11 @@
                 console.log(totalOut)   // User: Alich, Age: 25, City: Mymensingh.
 
 
-//               4  তারিখের সাথে টেমপ্লেট লিটারেল ব্যবহার:
+//               4)  তারিখের সাথে টেমপ্লেট লিটারেল ব্যবহার:
 
                 let data = new Date()
                 let message12 = `Today is ${data.getDate()}/${data.getMonth()+1}/${data.getYear()}`
-                console.log(message12)   // Today is 2/11/124
+                console.log(message12)   // Today is 2/11/24
 
 //--------------------------------------------------------------------------------------------------
 //                        Escape সিকোয়েন্স (Escape Sequences):
@@ -122,5 +122,36 @@
 //---------------------------------------------------------------------------------
                    // includes(): স্ট্রিংয়ের ভেতর নির্দিষ্ট অংশটি আছে কি না পরীক্ষা করে।  JavaScript-এ includes() মেথডটি একটি স্ট্রিং-এর ভেতরে নির্দিষ্ট অংশটি আছে কি না, তা যাচাই করতে ব্যবহার করা হয়। যদি নির্দিষ্ট অংশটি স্ট্রিং-এর মধ্যে থাকে, তাহলে এটি true রিটার্ন করে; আর না থাকলে false রিটার্ন করে।        
                       
+                   let sentence = "I love programming in JavaScript.";
 
+                   // চেক করুন, "programming" শব্দটি আছে কি না
+                   console.log(sentence.includes("programming"));  // true
+                   
+                   // চেক করুন, "Python" শব্দটি আছে কি না
+                   console.log(sentence.includes("Python"));  // false
+                   
 
+// --------------------------------------------------------------
+// indexOf(): স্ট্রিংয়ের মধ্যে একটি নির্দিষ্ট সাবস্ট্রিং বা ক্যারেক্টারের প্রথম উপস্থিতির অবস্থান (ইন্ডেক্স) খুঁজে বের করা। উদাহরণ:
+
+javascript
+Copy code
+let str = "Hello, world!";
+console.log(str.indexOf("world"));  // 
+
+//------------------------------------------------------------
+// replace(): স্ট্রিংয়ের একটি অংশকে অন্য অংশ দিয়ে প্রতিস্থাপন করা। উদাহরণ:
+
+javascript
+Copy code
+let sentence = "I love apples";
+console.log(sentence.replace("apples", "bananas"));  // "I love bananas"
+
+// --------------------------------------------------------------------------
+
+// substring(): স্ট্রিংয়ের একটি অংশ বের করা। উদাহরণ:
+
+javascript
+Copy code
+let str = "Hello, world!";
+console.log(str.substring(0, 5));  // "Hello"

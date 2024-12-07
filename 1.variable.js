@@ -11,13 +11,13 @@
 let name
 console.log(name) // undefined
 
-let fistName = 'Yusha bin Nun'
+let fistName = 'Yusha bin Nun'  // let, const ,var  this are the keywords(name)
 console.log(fistName) // Yusha bin Nun
 
 let age = 30
 console.log(`My name is ${fistName}. I am ${age} old`)
 
-// NamingConvension 
+// Naming Convension 
 
 /**
  * 1. We can't use reserved keyword
@@ -36,7 +36,7 @@ console.log(`My name is ${fistName}. I am ${age} old`)
  */
 
 
-// Variable Scope: Variable has 3 type of Scope 1. Global Scope 2. Local Scope 3. Block Scope
+// Variable Scope: Variable has 3 type of Scope 1. Global Scope 2. Local or func Scope 3. Block Scope
 
 //Global Scope: Global Scope means we can access the variable out side or inside the function. We can access the console.log inside or out side function.
 
@@ -68,7 +68,21 @@ if (age){
 
 } 
 
-// Hosting 
+let age = '34.23'
+console.log(Number.parseFloat(age));
 
+
+
+//                                     What have I learned in Variable? 
+
+/**
+ *    1. What is the Variable?
+ *    2. How can declare the Variable in JavaScript?
+ *    3. What are the different in let, var and const? 
+ *    4. How can write the Variable name? or It's call naming convention.
+ *    5. What is the scope in JavaScript? 
+ *    6. How many scope has in javascript? 
+ *    7. Give me every scope definition in Javascript? 
+ */
 
 
