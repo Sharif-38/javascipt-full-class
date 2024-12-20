@@ -57,7 +57,7 @@ function showAllThing () {
 }
 
 showAllThing()
-// console.log(number)// we can't access out side the value 
+// console.log(number) // we can't access out side the value 
 
 
 // Block Scope: Block Scope is means, only for in side the {} value let or const by accessible. var don't follow block scope rule.

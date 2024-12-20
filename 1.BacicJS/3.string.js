@@ -77,7 +77,7 @@
                                    // length প্রপার্টি দিয়ে স্ট্রিংয়ের দৈর্ঘ্য বের করা যায়।
 
                                    let town = 'YUsha bin num'
-                                   console.log(town.length)  // 
+                                   console.log(town.length)  // if we want to get string.length that time space also as a string. 
 //----------------------------------------------------------------------------------------
 
                         // toUpperCase() এবং toLowerCase(): বড় অক্ষরে বা ছোট অক্ষরে রূপান্তর করে।
@@ -111,12 +111,12 @@
 
    //----------------------------------------------------------------------------------------
                          //     charAt(): নির্দিষ্ট ইন্ডেক্সে থাকা ক্যারেক্টার বের করে। charAt() মেথডটি JavaScript-এ একটি স্ট্রিং-এর নির্দিষ্ট অবস্থানে (ইন্ডেক্সে) থাকা ক্যারেক্টার (অক্ষর) বের করে দেয়। আপনি যদি জানতে চান স্ট্রিং-এর একটি নির্দিষ্ট স্থানে কোন ক্যারেক্টার আছে, তাহলে charAt() মেথডটি ব্যবহার করতে পারেন।
-                         const totalItems = "HelloWebsits"
-                         console.log(totalItems.charAt(3))   
+                         const totalItems = "HealoWebsits"
+                         console.log(totalItems.charAt(3))   // output: l
                          
                          //
 
-// String is immutable--- we can't change.
+// String is immutable--- we can't change.(we will discuss agian )
 // Array is mutable -- you can chage the array element
 
 //---------------------------------------------------------------------------------
@@ -133,9 +133,6 @@
 
 // --------------------------------------------------------------
 // indexOf(): স্ট্রিংয়ের মধ্যে একটি নির্দিষ্ট সাবস্ট্রিং বা ক্যারেক্টারের প্রথম উপস্থিতির অবস্থান (ইন্ডেক্স) খুঁজে বের করা। উদাহরণ:
-
-javascript
-Copy code
 let str = "Hello, world!";
 console.log(str.indexOf("world"));  // 
 

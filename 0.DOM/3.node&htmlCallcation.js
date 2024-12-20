@@ -40,3 +40,6 @@ Hello, World! হলো একটি Text Node।
 সব Elements Node, কিন্তু সব Nodes Element নয়।
  */
 
+
+// children হলো Html কালেকশন এর মতো যায় । সব টেগ গুলো হবে
+// chilldnoodes হলো সব কিছু কা্ওন্ট হবে 

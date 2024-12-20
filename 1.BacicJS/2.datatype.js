@@ -3,9 +3,9 @@
 
 // JavaScript has two type of Datatypes :-
 
-// 1. Primitive(Primitive ডেটা টাইপগুলো JavaScript-এ সবচেয়ে সাধারণ ডেটা টাইপ। এগুলো সরাসরি মান ধারণ করে এবং Immutable, অর্থাৎ এদের মান পরিবর্তন করা যায় না।):- number, string, boolean, null, undefined, symbol, bight. 
+// 1. Primitive(Primitive ডেটা টাইপগুলো JavaScript-এ সবচেয়ে সাধারণ ডেটা টাইপ। এগুলো সরাসরি মান ধারণ করে এবং Immutable, অর্থাৎ এদের মান পরিবর্তন করা যায় না।):- number, string, boolean, null, undefined, symbol, bight. Primitive date type all time single value store kore.
 
-// 2. Reference Data type(These are objects that can store collections of data and more complex entities.): -- object, array, function
+// 2. Reference Data type(These are objects that can store collections of data and more complex entities.): -- object, array, function. all time double value store kora jai.
 
 
 //                               Number:

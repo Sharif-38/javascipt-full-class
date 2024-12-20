@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DOM er ajak special Event</h1>
+    <!--option -1-- direct use html element -->
+    <button onclick="console.log(7);">Click me now </button>
+    <button onclick="console.log('|I am going to mosqe');">Click me</button>
+    <button onclick="document.body.style.backgroundColor='yellow'">Make Yellow</button>
+      <!--option-2  -->
+    <button onclick="getMake()">Make red</button>
+    <!-- option-3 -->
+    <button id="make-blue">Make Blue</button>
+    <button id = 'make-purple'>Make Purpul</button>
+
+    <!-- option-4 -->
+     <button id="make-pink">Make Pink</button>
+     <button id="make-green">Make Green</button>
+     <button id="make-orange">Make orange</button>
+    <script src="7.Event-programming.js"></script>
+    <script>
+     document.getElementById("make-orange").addEventListener('click', function(){
+        document.body.style.backgroundColor = 'orange'
+     })
+    </script>
+</body>
+</html>
